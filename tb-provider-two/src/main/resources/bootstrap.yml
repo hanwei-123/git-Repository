@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      label: master
+      profile: dev #环境名  dev  test  pro
+      discovery:
+        enabled: true # 开启服务发现
+        service-id: tb-config-server # 配置config server 服务实例

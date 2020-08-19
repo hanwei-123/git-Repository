@@ -1,0 +1,11 @@
+server:
+  port: 8072
+
+spring:
+  application:
+    name: tb-config-client
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka

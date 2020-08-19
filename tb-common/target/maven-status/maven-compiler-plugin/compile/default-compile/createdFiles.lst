@@ -1,0 +1,7 @@
+com\jk\utils\CheckSumBuilder.class
+com\jk\utils\StringUtil.class
+com\jk\utils\RedisUtil.class
+com\jk\utils\Constant.class
+com\jk\entity\UserEntity.class
+com\jk\utils\HttpClientUtil.class
+com\jk\utils\RedisConfig.class

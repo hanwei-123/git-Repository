@@ -1,0 +1,21 @@
+server:
+  port: 8071
+
+spring:
+  application:
+    name: tb-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hanwei-123/git-Repository.git # 配置git仓库路径，注意路径为HTTP
+          search-paths: / # 配置文件路径
+          username:
+          password:
+          skipSslValidation: true
+      label: master # 分支
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
